@@ -16,12 +16,13 @@ jib {
     }
     to {
         //dockerhub
-        image = "ghcr.io/it-chhaya/rtr-report-app-bff"
+        image = ""
         tags = [project.version] as List<String>
 
         // For private registry authentication
         auth {
-            username = "it-chhaya"
+            username = ghcrUser
+            password = ghcrToken
         }
     }
 }

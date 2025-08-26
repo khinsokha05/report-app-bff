@@ -20,7 +20,7 @@ spring:
           nextjs:
             provider: keycloak
             client-id: nextjs
-            client-secret: SKV7H7WumZDxGmvmVoPt9fnSbJAi0Uf3
+            client-secret: a
             redirect-uri: http://localhost:8000/login/oauth2/code/nextjs
             scope:
               - openid # Auto issue access token
